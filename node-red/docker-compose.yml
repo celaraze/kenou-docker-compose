@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  node-red:
+    image: kenou/node-red:latest
+    container_name: node-red
+    build: .
